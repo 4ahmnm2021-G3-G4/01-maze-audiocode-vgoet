@@ -16,11 +16,11 @@
 /[Aa]ssets/StreamingAssets/
 /[Aa]ssets/ResonanceAudio/
 
-Assets/ResonanceAudio.meta
-Assets/SteamVR.meta
-Assets/SteamVR_Input.meta
-Assets/SteamVR_Resources.meta
-Assets/StreamingAssets.meta
+/[Aa]ssets/ResonanceAudio.meta/
+/[Aa]ssets/SteamVR.meta/
+/[Aa]ssets/SteamVR_Input.meta/
+/[Aa]ssets/SteamVR_Resources.meta/
+/[Aa]ssets/StreamingAssets.meta/
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
