@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Fire
   - Altar
+  - projectile
+  - FxTemporaire
+  - Wisp
   layers:
   - Default
   - TransparentFX

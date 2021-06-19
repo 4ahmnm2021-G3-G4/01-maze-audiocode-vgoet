@@ -1,19 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Interactable : MonoBehaviour
 {
 
-
-
-    void OnTriggerEnter(Collider other)
+    
+    void OnTriggerEnter(Collider collider)
     {
-        if(GetComponent<Collider>().gameObject.tag == "Player")
+        
+        if(GetComponent<Collider>().gameObject.tag == "Wisp")
         {
-            Destroy(gameObject);
+            PickupCounter.coinAmount += 1;
+         
+
+            
         }
 
 
+   
     }
+
+    
 }
