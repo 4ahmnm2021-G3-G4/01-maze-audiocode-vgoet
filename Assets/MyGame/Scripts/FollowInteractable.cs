@@ -6,21 +6,23 @@ using UnityEngine.AI;
 public class FollowInteractable : MonoBehaviour
 {
     public NavMeshAgent pickup;
-    public Transform Player;
+    public Transform target;
+    
 
     // Start is called before the first frame update
     void Start()
     {
         pickup = GetComponent<NavMeshAgent>();
-        Player = GameObject.FindGameObjectWithTag("Player").transform;
+        target = GameObject.FindGameObjectWithTag("Player").transform;
+       
     }
 
     // Update is called once per frame
+
     void Update()
     {
-        pickup.SetDestination(Player.position);
+        pickup.SetDestination(target.position);
     }
 
 
-    
 }

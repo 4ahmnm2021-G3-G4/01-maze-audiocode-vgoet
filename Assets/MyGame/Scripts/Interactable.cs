@@ -9,7 +9,7 @@ public class Interactable : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if(GetComponent<Collider>().gameObject.tag == "Altar")
+        if(GetComponent<Collider>().gameObject.tag == "Player")
         {
             Destroy(gameObject);
         }
