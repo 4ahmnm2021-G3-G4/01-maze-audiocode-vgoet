@@ -12,6 +12,8 @@ public class PickupCounter : MonoBehaviour
 
     public static int coinAmount;
 
+    public AudioSource chestOpen;
+
 
 
     private void Start()
@@ -23,9 +25,16 @@ public class PickupCounter : MonoBehaviour
     {
         coinText.text = coinAmount.ToString();
 
+
+     
+
         if (coinAmount == 3)
         {
             TriggerChest.GetComponent<BoxCollider>().enabled = true;
+            
         }
-    }
+
+     
+}
+   
 }
