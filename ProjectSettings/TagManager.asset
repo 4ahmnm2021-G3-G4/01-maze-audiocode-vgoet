@@ -9,6 +9,8 @@ TagManager:
   - projectile
   - FxTemporaire
   - Wisp
+  - Wisp1
+  - Wisp2
   layers:
   - Default
   - TransparentFX

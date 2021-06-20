@@ -16,6 +16,8 @@ public class PickupCounter : MonoBehaviour
 
 
 
+
+
     private void Start()
     {
         coinText = GetComponent<Text>();
@@ -36,5 +38,8 @@ public class PickupCounter : MonoBehaviour
 
      
 }
-   
+
+  
+
+
 }

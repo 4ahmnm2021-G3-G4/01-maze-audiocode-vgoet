@@ -2,8 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
-public class DoorClosed : MonoBehaviour
+public class DoorExit : MonoBehaviour
 {
    
     public GameObject Door;
@@ -11,17 +12,29 @@ public class DoorClosed : MonoBehaviour
     public float speed; 
     public Vector3 startpos;
 
-void Start()
+    public AudioClip doorOpen;
+    public AudioClip doorClose;
+    public AudioClip key;
+    public AudioSource TheDoor;
+
+    public bool alreadyPlayed = false;
+
+
+    void Start()
 {
     startpos = gameObject.transform.position; 
 }
 
 
 public void DoorOpen(){
-    StartCoroutine(OpenDoor(true));
-}
+    StartCoroutine(OpenDoor(false));
+
+        TheDoor.PlayOneShot(doorOpen);
+        TheDoor.PlayOneShot(key);
+    }
 
 
+ 
 
 IEnumerator OpenDoor(bool open)
 
@@ -29,13 +42,15 @@ IEnumerator OpenDoor(bool open)
         if (open == true){
 
         
-        while (Door.transform.position.y > 7f){
+        while (Door.transform.position.y < 7f){
             Door.transform.Translate(Vector3.up * Time.deltaTime * 5f);
             yield return new WaitForSeconds(0.1f);
+
+
             }
         }
         else{
-            while (Door.transform.position.y < 3){
+            while (Door.transform.position.y > -2){
             Door.transform.Translate(-Vector3.up * Time.deltaTime * 5f);
             yield return new WaitForSeconds(0.1f);
             }
@@ -44,8 +59,21 @@ IEnumerator OpenDoor(bool open)
     }
 
 void OnTriggerEnter(Collider collider){
-            StartCoroutine(OpenDoor(true));  
+
+        
+        StartCoroutine(OpenDoor(true));
+
+        if (!alreadyPlayed)
+        {
+            TheDoor.PlayOneShot(doorOpen);
+            TheDoor.PlayOneShot(key);
+            
+            alreadyPlayed = true;
+
+        }
+
     }
+
     
 }
 
