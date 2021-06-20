@@ -26,6 +26,7 @@ public class Interactable : MonoBehaviour
             col1.GetComponent<Collider>().enabled = false;
 
 
+
         }
 
         if (GetComponent<Collider>().gameObject.tag == "Wisp1")
