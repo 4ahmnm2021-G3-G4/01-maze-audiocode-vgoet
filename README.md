@@ -1,3 +1,4 @@
+![1](https://user-images.githubusercontent.com/56028730/123600659-2c983a80-d7f7-11eb-83bf-8c3c81436456.JPG)
 # 01-maze-audiocode-vgoet
 
 ### Project description:
@@ -28,9 +29,13 @@ First open Oculus software, second open SteamVR (or start game from unity), othe
 Oculus Rift/S, Vive;
 Tested on Oculus Rift S
 
-### Visuals:
+### Visuals:![1]
+![4](https://user-images.githubusercontent.com/56028730/123600816-4e91bd00-d7f7-11eb-8d00-884748144a6a.JPG)
+![1](https://user-images.githubusercontent.com/56028730/123600820-4e91bd00-d7f7-11eb-9ef9-9ccd911d90e0.JPG)
+![2](https://user-images.githubusercontent.com/56028730/123600825-4f2a5380-d7f7-11eb-8af5-9ec8e56e0b0b.JPG)
+![3](https://user-images.githubusercontent.com/56028730/123600826-4f2a5380-d7f7-11eb-8ac4-086e7d20e2ed.JPG)
 
-Screenshots (concept and experience), Video
+
 
 ### Third party material:
 
