@@ -1,4 +1,5 @@
 
+
 # 01-maze-audiocode-vgoet
 
 ### Project description:
@@ -34,6 +35,7 @@ Tested on Oculus Rift S
 ![1](https://user-images.githubusercontent.com/56028730/123600820-4e91bd00-d7f7-11eb-9ef9-9ccd911d90e0.JPG)
 ![2](https://user-images.githubusercontent.com/56028730/123600825-4f2a5380-d7f7-11eb-8af5-9ec8e56e0b0b.JPG)
 ![3](https://user-images.githubusercontent.com/56028730/123600826-4f2a5380-d7f7-11eb-8ac4-086e7d20e2ed.JPG)
+![regter](https://user-images.githubusercontent.com/56028730/123604564-3d4aaf80-d7fb-11eb-8ad3-ab5354268992.JPG)
 
 
 
