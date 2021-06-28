@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.untiy2019steamvrmaze.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "D:\\2020_2021\\4ahmnm\\VGoette\\01-maze-audiocode-vgoet\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "E:\\2020_21\\4AHMNM\\01-maze-audiocode-vgoet\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "untiy2019-steamVR-maze [Testing]"
