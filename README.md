@@ -1,4 +1,4 @@
-![1](https://user-images.githubusercontent.com/56028730/123600659-2c983a80-d7f7-11eb-83bf-8c3c81436456.JPG)
+
 # 01-maze-audiocode-vgoet
 
 ### Project description:
