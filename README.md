@@ -49,8 +49,6 @@ https://user-images.githubusercontent.com/56028730/123604336-08d6f380-d7fb-11eb-
 ### Third party material:
 
 
-https://user-images.githubusercontent.com/56028730/123603995-b564a580-d7fa-11eb-828c-8003e4844db0.mp4
-
 
 
 - Unity AssetStore
