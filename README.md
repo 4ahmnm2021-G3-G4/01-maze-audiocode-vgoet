@@ -45,12 +45,11 @@ Tested on Oculus Rift S
   - Particle Collection SKJ 2016
   - FREE Stylized PBR Textures
 
-- ## Youtube Videos
+- ## Musik
 
 - Mp3/ Wav
   - FreeSound
-  - Youtube
-    -
+  
 
 ### Project state:
 
