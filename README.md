@@ -37,6 +37,10 @@ Tested on Oculus Rift S
 
 
 
+https://user-images.githubusercontent.com/56028730/123601690-42f2c600-d7f8-11eb-8b36-3b354ee17ab5.mp4
+
+
+
 ### Third party material:
 
 - Unity AssetStore
@@ -53,7 +57,7 @@ Tested on Oculus Rift S
 
 ### Project state:
 
-90%/100% finished
+100%/100% finished
 <progress max="100" value="2"></progress>
 
 ### Limitations:
